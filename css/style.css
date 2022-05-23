@@ -1,0 +1,101 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+body {
+  font-family: "News Cycle", sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  color: #666;
+  background: #dddddd;
+}
+
+h1 {
+  color: #0974b3;
+}
+
+.container {
+  width: 900px;
+  /* float: left; */
+}
+
+.newton {
+  border: solid 2px white;
+  border-top: #0974b3 solid 4px;
+  background: white;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.albert {
+  border: solid 2px white;
+  border-top: #0974b3 solid 4px;
+  background: white;
+  box-sizing: border-box;
+  /* display: inline-block; */
+  padding: 10px;
+  width: 425px;
+  height: 450px;
+  float: left;
+}
+
+.tesla {
+  border: solid 2px white;
+  border-top: #0974b3 solid 4px;
+  background: white;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  width: 425px;
+  height: 450px;
+  margin-left: 5%;
+}
+
+img {
+  width: 10em;
+  margin: 25px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  float: left;
+}
+
+.name {
+  margin-left: 25px;
+}
+
+.metai {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 2px;
+}
+
+.tekstas {
+  box-sizing: border-box;
+}
+
+#newton::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+span {
+  font-style: italic;
+}
+
+.box {
+  margin: 10px 20px 20px 0px;
+}
+
+a {
+  margin-top: 10px;
+}
